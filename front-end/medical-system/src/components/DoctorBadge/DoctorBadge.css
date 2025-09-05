@@ -1,0 +1,27 @@
+.doc {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.doc__dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.doc__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.doc__name {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.doc__spec {
+    font-size: 12px;
+    color: #6b7280;
+}

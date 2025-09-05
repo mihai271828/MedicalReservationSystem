@@ -1,0 +1,60 @@
+.rem {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.rem__bar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rem__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.rem__left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rem__dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.rem__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.rem__name {
+    font-weight: 600;
+}
+
+.rem__sub {
+    font-size: 12px;
+    color: #6b7280;
+}
+
+.rem__right {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 2px;
+}
+
+.rem__rt {
+    font-weight: 600;
+}
+
+.rem__rb {
+    font-size: 12px;
+    color: #6b7280;
+}

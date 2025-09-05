@@ -1,0 +1,28 @@
+.hdr {
+    background: #fff;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.hdr__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+}
+
+.hdr__brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.hdr__brand h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.hdr__stats {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}

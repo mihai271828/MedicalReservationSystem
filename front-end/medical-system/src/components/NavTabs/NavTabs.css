@@ -1,0 +1,30 @@
+.tabs {
+    background: #fff;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.tabs__row {
+    display: flex;
+    gap: 8px;
+}
+
+.tabs__btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 10px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid transparent;
+    color: #6b7280;
+    cursor: pointer;
+}
+
+.tabs__btn:hover {
+    color: #374151;
+}
+
+.tabs__btn.is-active {
+    color: #2563eb;
+    border-bottom-color: #2563eb;
+}

@@ -1,0 +1,43 @@
+h2 {
+    margin: 0;
+}
+
+.patients__bar {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.patients__bar input,
+.patients__bar select {
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+}
+
+.avatar {
+    background: #dbeafe;
+    border-radius: 999px;
+    padding: 6px;
+    margin-right: 8px;
+    display: flex;
+}
+
+.iconBtn {
+    background: transparent;
+    border: 1px solid #e5e7eb;
+    padding: 6px;
+    border-radius: 8px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.iconBtn.danger {
+    border-color: #fecaca;
+}
+
+.truncate {
+    max-width: 260px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

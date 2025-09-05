@@ -1,0 +1,80 @@
+h2 {
+    margin: 0 0 12px 0;
+}
+
+.muted {
+    color: #6b7280;
+    padding: 12px 0;
+}
+
+.dash__stats {
+    flex-wrap: wrap;
+}
+
+.dash__stat {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 1;
+    min-width: 240px;
+}
+
+.dash__icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background: #dbeafe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dash__icon--green {
+    background: #dcfce7;
+}
+
+.dash__icon--orange {
+    background: #ffedd5;
+}
+
+.dash__meta {
+    display: flex;
+    flex-direction: column;
+}
+
+.dash__label {
+    font-size: 13px;
+    color: #6b7280;
+}
+
+.dash__value {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.dash__doctorGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.dash__docCard {
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 12px;
+    min-width: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.dash__docCount {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.dash__docCaption {
+    font-size: 12px;
+    color: #6b7280;
+}

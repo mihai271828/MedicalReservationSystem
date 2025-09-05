@@ -60,7 +60,6 @@ export default function Dashboard({ doctors, patients, getDoctorById }) {
             return (
               <AppointmentItem
                 key={p.id}
-                leftIcon={<div style={{ width: 24, height: 24, borderRadius: 999, background: "#dbeafe" }} />}
                 title={p.name}
                 subtitle={`${p.email} · ${d?.name ?? ""} ${d?.specialty ?? ""}`.trim()}
                 rightTop={p.reservationDate}
